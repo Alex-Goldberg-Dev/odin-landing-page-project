@@ -19,6 +19,11 @@ header ul,
 .one p {
     list-style-type: none;
     font-size: 18px;
+}
+
+header ul,
+.one p,
+footer {
     color: #E5E7EB;
 }
 
@@ -28,7 +33,28 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .header-logo,
-h1 {
+.call-to-action,
+h1,
+button {
     color: #F9FAF8;
+}
+
+.quote-text,
+h2 {
+    color: #1F2937;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.call-to-action,
+button {
+    background-color: #3882F6;
 }
