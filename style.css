@@ -5,56 +5,62 @@ body {
     flex-direction: column;
 }
 
-header,
-.one,
-footer {
-    background-color: #1F2937;
-}
-
-.header-logo {
-    font-size: 24px;
-}
-
-header ul,
-.one p {
-    list-style-type: none;
-    font-size: 18px;
-}
-
-header ul,
-.one p,
-footer {
-    color: #E5E7EB;
-}
-
 h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
 }
 
-.header-logo,
-.call-to-action,
-h1,
 button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
     color: #F9FAF8;
 }
 
-.quote-text,
-h2 {
-    color: #1F2937;
+.header ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+.one p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .three {
     background-color: #E5E7EB;
 }
 
-.call-to-action,
-button {
+.quote-text {
+    color: #1F2937;
+}
+
+.call-to-action {
+    color: #F9FAF8;
     background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
