@@ -21,7 +21,11 @@ h2 {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 100px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px 15px;
+    font-weight: 700;
 }
 
 .content {
@@ -56,6 +60,7 @@ button {
 .one {
     background-color: #1F2937;
     display: flex;
+    padding-bottom: 120px;
 }
 
 .one .left {
@@ -68,6 +73,16 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     padding-right: 20px;
+    /* margin: 0; */
+}
+
+.one .placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex-grow: 1;
 }
 
 .three {
@@ -76,6 +91,9 @@ button {
 
 .quote-text {
     color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .call-to-action {
