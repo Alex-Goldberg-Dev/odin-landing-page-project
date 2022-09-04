@@ -18,6 +18,10 @@ h2 {
     color: #1F2937;
 }
 
+h3 {
+    margin: 0;
+}
+
 button {
     color: #F9FAF8;
     background-color: #3882F6;
@@ -144,6 +148,15 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     margin: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+
+.call-to-action p {
+    margin: 0;
+    margin-top: 5px;
 }
 
 .footer {
