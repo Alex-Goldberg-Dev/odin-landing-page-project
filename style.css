@@ -104,6 +104,7 @@ button {
 .two .image {
     outline: #3882F6 solid 4px;
     border-radius: 12px;
+    flex-grow: 1;
     height: 164.85px;
     width: auto;
 }
@@ -118,6 +119,12 @@ button {
     background-color: #E5E7EB;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 90px;
+}
+
 .quote-text {
     color: #1F2937;
     font-size: 36px;
@@ -125,12 +132,30 @@ button {
     font-style: italic;
 }
 
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .call-to-action {
     color: #F9FAF8;
     background-color: #3882F6;
+    margin: 50px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .text {
+    display: flex;
+    align-self: center;
 }
